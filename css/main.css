@@ -17,3 +17,16 @@
   margin: 10px 50px 0 50px;
 }
 
+.car-row {
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 100vh;
+}
+
+ 
+
+
+
+
