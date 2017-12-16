@@ -1,1 +1,32 @@
 /* Los estilos de tu proyecto */
+* {
+  margin:   0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-background {
+  background-color: white;
+  border: none;
+}
+
+.navbar-container {
+  height: 10vh;
+  /*border: 3px solid yellow;*/
+  margin: 10px 50px 0 50px;
+}
+
+.car-row {
+  background-image: url(../assets/images/taxi.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+ 
+
+
+
+
