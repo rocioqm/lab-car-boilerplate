@@ -1,6 +1,6 @@
 /* Los estilos de tu proyecto */
 * {
-  margin:   0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
@@ -23,6 +23,39 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+
+.car-text {
+  background-color: #F7B617;
+  float: right;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.car-mobile {
+  margin: 20px;
+  font-weight: bolder;
+  color: white;
+  height: 200px;
+  text-align: left;
+}
+
+.logo-car {
+  width: 70px;
+  height: 16px;
+}
+.btn-car-mobile {
+  background-color: white;
+  border-color: white;
+  font-weight: bolder;
+  color: black;
+}
+
+.start-trip {
+  font-weight: bolder;
+  margin-top: 50px;
+  font-size: xx-large;
+  line-height: 1.5;
 }
 
  
