@@ -28,8 +28,7 @@
 .car-text {
   background-color: #F7B617;
   float: right;
-  margin-top: 50%;
-  margin-bottom: 50%;
+  margin-top: 200px;
 }
 
 .car-mobile {
@@ -57,9 +56,11 @@
   font-size: xx-large;
   line-height: 1.5;
 }
-
  
-
-
+@media (min-width: 768px) {
+  .car-mobile {
+    display: none;
+  }
+}
 
 
