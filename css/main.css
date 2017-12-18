@@ -87,6 +87,7 @@
   padding-bottom: 30px;
   margin-top: 30px;
 }
+
 .text-new-app {
   font-weight: bolder;
 }
@@ -96,7 +97,6 @@
   margin-top: 5px;
   margin-left: 0;
   padding-bottom: 0;
-  padding-top: 14px;
 }
 
 .app-desktop{
@@ -115,6 +115,7 @@
 .app-desktop-1{
   margin-top: 30px;
   text-align: justify;
+  margin-bottom: 30px;
 }
 
 .row-app-1 {
@@ -193,6 +194,10 @@
   width:100%;
 }
 
+.container-app {
+  background-color: #F7B617;
+}
+
 
 @media (max-width: 767px) {
   .car-desktop {
@@ -203,9 +208,6 @@
   }
   .app-mobile {
     display: block;
-  }
-  .app-desktop {
-    display:none;
   }
   .row-app {
     display: block;
@@ -226,9 +228,7 @@
   .car-desktop {
     display: block;
   }
-  .app-mobile {
-    display: none;
-  }
+
   .app-desktop {
     display:block;
   }
