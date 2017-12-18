@@ -154,7 +154,9 @@
   background-color: #F7B617;
   color: white;
 }
-
+.col-form {
+  margin-top: 50px;
+}
 .col-tarifas {
   margin-bottom: 30px;
   margin-top: 40px;
@@ -177,7 +179,7 @@
 }
 
 .tarifa-maps {
-  height: 40vh;
+  height: 100%;
   position: 100% 100%;
   size: cover;
   width:100%;
