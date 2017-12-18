@@ -28,7 +28,7 @@
 .car-text {
   background-color: #F7B617;
   float: right;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .car-mobile {
@@ -43,6 +43,7 @@
   width: 70px;
   height: 16px;
 }
+
 .btn-car-mobile {
   background-color: white;
   border-color: white;
@@ -56,11 +57,111 @@
   font-size: xx-large;
   line-height: 1.5;
 }
- 
+
+.car-desktop {
+  color: white;
+  margin: 20px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.row-app {
+  background-color: #F7B617;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+}
+
+.app-mobile {
+  border: 2px solid white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+.text-new-app {
+  font-weight: bolder;
+}
+
+.text-mobile-app {
+  border: none;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+.app-desktop{
+  margin-top: 40px;
+  border: 1px solid white;
+  margin-left: 0;
+  padding: 20px 0;
+}
+
+.text-new-app-1 {
+  border: none;
+  margin-left: 0;
+  font-weight: bolder;
+}
+
+.app-desktop-1{
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.row-app-1 {
+  background-color: #F7B617;
+  color: white;
+  padding: 20px;
+  height: 80vh;
+}
+
+
+@media (max-width: 767px) {
+  .car-desktop {
+    display: none;
+  }
+  .car-mobile {
+    display: block;
+  }
+  .app-mobile {
+    display: block;
+  }
+  .app-desktop {
+    display:none;
+  }
+  .row-app {
+    display: block;
+  }
+  .row-app-1 {
+    display: none;
+  }
+}
+
+
 @media (min-width: 768px) {
   .car-mobile {
     display: none;
   }
+  .car-desktop {
+    display: block;
+  }
+  .app-mobile {
+    display: none;
+  }
+  .app-desktop {
+    display:block;
+  }
+  .row-app {
+    display: none;
+  }
+  .row-app-1 {
+    display: block;
+  }
 }
+
+
+
+
+
+
+
 
 
