@@ -17,6 +17,14 @@
   margin: 10px 50px 0 50px;
 }
 
+.img-user {
+  margin-left: 180px;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
 .car-row {
   background-image: url(../assets/images/taxi.jpg);
   background-position: 100% 100%;
