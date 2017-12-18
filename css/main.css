@@ -150,6 +150,40 @@
   float: right;
 }
 
+.row-tarifas {
+  background-color: #F7B617;
+  color: white;
+}
+
+.col-tarifas {
+  margin-bottom: 30px;
+  margin-top: 40px;
+  border: 2px solid white;
+  padding-right: 20px;
+  padding: 30px;
+  height: 50vh;
+}
+
+.form-control {
+  border: 1px solid white;
+  background-color: #F7B617;
+  color: white;
+}
+
+.btn-tarifas {
+  border: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.tarifa-maps {
+  height: 40vh;
+  position: 100% 100%;
+  size: cover;
+  width:100%;
+}
+
+
 @media (max-width: 767px) {
   .car-desktop {
     display: none;

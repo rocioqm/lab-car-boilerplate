@@ -94,17 +94,36 @@
       </div>
     </div>
   </section>
-  <section>
-    <div>
-      <h5>Tarifas</h5>
-      <p>Consulta las tarifas LabCar aquí</p>
-      <!-- falta poner ingrese su partida y destino-->
-      <button>¡TRAZAR RUTA!</button>
-    </div>
-    <div>
-      <figure>
-        <img src="assets/images/maps.jpeg" alt="maps">
-      </figure>
+  <section class="container-fluid">
+    <div class="row row-tarifas">
+      <div class="col-xs-12 col-md-5">
+        <h3 class="text-new-app">Tarifas</h5>
+        <p class="text-new-app">Consulta las tarifas LabCar aquí</p>
+        <form class="form-horizontal">
+            <div class="form-group">
+              <img src="assets/images/shape.png">
+              <div class="col-xs-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Punto de Partida">
+              </div>
+            </div>
+            <div class="form-group">
+              <img src="assets/images/shape2.png">
+              <div class="col-xs-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Destino final">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default btn-tarifas">¡TRAZAR RUTA!</button>
+              </div>
+            </div>
+          </form>
+      </div>
+      <div class="col-xs-12 col-md-5 ">
+        <figure class="col-tarifas">
+          <img src="assets/images/maps.jpeg" alt="maps" class=" tarifa-maps">
+        </figure>
+      </div>
     </div>
   </section>
   <footer>
